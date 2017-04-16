@@ -1,5 +1,5 @@
 appConfig.$inject = ['$stateProvider', '$urlRouterProvider']
 function appConfig ($stateProvider, $urlRouterProvider) {
-    // $urlRouterProvider.otherwise("/");
+    $urlRouterProvider.otherwise("/home");
 }
 export default appConfig;

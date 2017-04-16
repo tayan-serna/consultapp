@@ -63,12 +63,12 @@
 /******/ 	__webpack_require__.p = "dist/";
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 11);
+/******/ 	return __webpack_require__(__webpack_require__.s = 26);
 /******/ })
 /************************************************************************/
 /******/ ({
 
-/***/ 1:
+/***/ 2:
 /***/ (function(module, exports) {
 
 /**
@@ -4758,10 +4758,10 @@ angular.module('ui.router.state')
 
 /***/ }),
 
-/***/ 11:
+/***/ 26:
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(1);
+module.exports = __webpack_require__(2);
 
 
 /***/ })

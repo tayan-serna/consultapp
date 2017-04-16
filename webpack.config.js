@@ -33,8 +33,7 @@ var config = {
             },
             {
                 test: /\.css$/,
-                loader: 'style!css',
-                exclude: /node_modules/
+                loader: 'style-loader!css-loader'
             },
             {
                 test: /\.png/,

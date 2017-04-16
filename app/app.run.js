@@ -26,5 +26,6 @@ export default appRun;*/
 appRun.$inject = [];
 function appRun () {
     // TODO
+    console.log('RUN')
 }
 export default appRun;
