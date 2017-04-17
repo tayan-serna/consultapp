@@ -1,4 +1,6 @@
 import 'bootstrap/dist/css/bootstrap.min.css'
+import 'angular-ui-grid/ui-grid.min.css'
+import './assets/css/style.css'
 import angular from 'angular';
 import appConfig from './app.config';
 import appRun from './app.run';

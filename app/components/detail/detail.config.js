@@ -1,4 +1,4 @@
-import tempalte from './detail.template.html'
+import template from './detail.template.html'
 
 appConfig.$inject = ['$stateProvider']
 function appConfig ($stateProvider) {

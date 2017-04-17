@@ -10,7 +10,8 @@ var config = {
     entry: {
         app : path.resolve(__dirname, "app/app.js"),
         vendors : [
-            'angular-ui-router'
+            'angular-ui-router',
+            'angular-ui-grid'
         ]
     },
     output: {
