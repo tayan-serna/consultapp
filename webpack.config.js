@@ -11,7 +11,8 @@ var config = {
         app : path.resolve(__dirname, "app/app.js"),
         vendors : [
             'angular-ui-router',
-            'angular-ui-grid'
+            'angular-ui-grid',
+            'angular-ui-bootstrap'
         ]
     },
     output: {

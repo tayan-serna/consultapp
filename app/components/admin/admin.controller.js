@@ -1,8 +1,10 @@
 'use strict';
-AdminController.$inject = ['$scope']
+AdminController.$inject = ['$scope', '$uibModal']
 
-function AdminController ($scope) {
+function AdminController ($scope, $uibModal) {
     console.log('Hola admin')
+    var vm = this
+    vm.addDevice = addDevice
 
     $scope.gridOptions = {
         enableSorting: true,
@@ -49,6 +51,25 @@ function AdminController ($scope) {
             $scope.gridApi = gridApi;
         }
     };
+
+    function addDevice () {
+        var modalInstance = $uibModal.open({
+            animation: true,
+            component: 'adminModalComponent',
+            size : 'md',
+            // resolve: {
+                // items: function () {
+                // return $ctrl.items;
+                // }
+            // }
+        });
+
+        modalInstance.result.then(function (selectedItem) {
+            // $ctrl.selected = selectedItem;
+        }, function () {
+            
+        });
+    }
 }
 
 export default AdminController;

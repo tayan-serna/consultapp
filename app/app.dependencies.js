@@ -33,7 +33,8 @@ import angular from 'angular';
 let dependenciesModule = angular.module('app.dependencies', [
     'ui.router',
     'ui.grid',
-    'ui.grid.grouping'
+    'ui.grid.grouping',
+    'ui.bootstrap'
 ])
 
 export default dependenciesModule;

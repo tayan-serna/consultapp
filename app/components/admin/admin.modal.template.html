@@ -1,0 +1,35 @@
+<section>
+     <div class="modal-header">
+            <h3 class="modal-title" id="modal-title">Agregar equipo</h3>
+        </div>
+        <div class="modal-body" id="modal-body">
+            <form>
+                <div class="form-group">
+                    <label for="exampleInputEmail1">Cliente</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
+                </div>
+                <div class="form-group">
+                    <label for="exampleInputPassword1">Documento</label>
+                    <input type="text" class="form-control" id="exampleInputPassword1" placeholder="Documento">
+                </div>
+                <div class="form-group">
+                    <label for="exampleInputPassword1">Equipo</label>
+                    <input type="text" class="form-control" id="exampleInputPassword1" placeholder="Equipo">
+                </div>
+                <div class="form-group">
+                    <label for="exampleInputPassword1">Estado</label>
+                    <select class="form-control">
+                        <option value="">Activo</option>
+                        <option value="">En Proceso</option>
+                        <option value="">Inactivo</option>
+                    </select>
+                </div>
+                
+            </form>
+        </div>  
+        <div class="modal-footer">
+            <button class="btn btn-primary" type="button" ng-click="$ctrl.ok()">OK</button>
+            <button class="btn btn-warning" type="button" ng-click="$ctrl.cancel()">Cancel</button>
+        </div>
+    
+</section>
